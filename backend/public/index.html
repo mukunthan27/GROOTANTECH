@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Frontend</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.31d6cfe0d16ae931b73c.css"></head>
+<body>
+  <app-root>
+    <div class="container4" *ngif="spin">
+      <style>
+          body important {
+              background-color: black;
+          }
+
+          .loader {
+              border: 12px solid burlywood;
+              border-radius: 50%;
+              border-top: 12px solid white;
+              margin: auto;
+              margin-top: 250px;
+              width: 80px;
+              height: 80px;
+              animation: spin 1.5s linear infinite;
+          }
+
+          @keyframes spin {
+              0% {
+                  transform: rotate(0deg);
+              }
+
+              100% {
+                  transform: rotate(360deg);
+              }
+          }
+      </style>
+      <div class="loader"></div>
+  </div>
+  </app-root>
+<script src="runtime.ce2afe238265c8b3d829.js" defer></script><script src="polyfills.4dcd3afaf34482e79ea9.js" defer></script><script src="main.55206878270f2a6af8da.js" defer></script>
+
+</body></html>
