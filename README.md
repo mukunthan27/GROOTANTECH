@@ -1,6 +1,8 @@
 # GROOTANTECH
 MEAN STACK APPLICATION
 
+// public is frontend file it inside the backend folder
+
 // Open backend file and run node app.js
 
 // after running app.js open chrome
